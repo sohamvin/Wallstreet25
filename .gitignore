@@ -1,0 +1,36 @@
+# Byte-compiled and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+# Virtual environment
+venv/
+venv*/
+lib/
+lib64/
+bin/
+include/
+pyvenv.cfg
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Ignore system-specific or IDE-generated files
+.DS_Store
+*.swp
+*.swo
+*.swn
+.vscode/
+.idea/
+*.bak
+
+# Ignore dependencies if using virtual environments
+*.egg-info/
+*.eggs/
+*.env
+
+.env

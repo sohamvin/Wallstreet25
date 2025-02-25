@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+google-generativeai
+pymongo
+redis
+pinecone-client
+dnspython  
+grpcio-tools
+grpcio
+python-dotenv
+pytz
