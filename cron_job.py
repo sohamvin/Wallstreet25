@@ -114,14 +114,6 @@ def connect_to_redis():
 connect_to_mongo()
 connect_to_redis()
 
-# List of companies
-list_of_companies = [
-    "Google", "Facebook", "Instagram", "Spotify", "Dropbox",
-    "Reddit", "Netflix", "Pinterest", "Quora", "YouTube",
-    "Lyft", "Uber", "LinkedIn", "Slack", "Etsy",
-    "Mozilla", "NASA", "IBM", "Intel", "Microsoft"
-]
-
 def generate_news_task():
     news_data = generate_news()
     print("📰 News generated:", news_data)
@@ -138,10 +130,8 @@ def generate_news_task():
     # print("📊 Stock Predictions:", predictions)
     
     # Map each company in predictions to a random company from list_of_companies
-    mapped_companies = dict(zip(predictions.keys(), random.sample(list_of_companies, len(predictions))))
+    mapped_companies = dict(zip(predictions.keys(), predictions.keys()))
 
-    
-    
     # Convert predictions to Redis message format
     for original_company, mapped_company in mapped_companies.items():
         score = predictions[original_company]  # Use the actual prediction score

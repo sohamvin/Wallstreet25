@@ -34,5 +34,3 @@ def search_companies(news_text, top_k=5):
     return [(match["id"], match["metadata"]) for match in results["matches"]]
 
 
-#related_companies = search_companies_with_filters("Real estate sector is booming in India", 5)
-#print(related_companies)
