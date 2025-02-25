@@ -1,0 +1,178 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  // directUrl = env("DIRECT_URL")
+}
+        
+
+model User {
+  // id       BigInt  @id @default(autoincrement())
+  id       String @id @default(cuid())
+  username String @unique
+  email    String  @unique
+  name     String
+  password String
+  cash     Decimal @default(100000.0)
+  lockedCash Decimal @default(0.00)
+  userLocked Boolean @default(false)
+  friends Boolean @default(false)
+
+
+
+  orders   Order[]
+  holdings UserHolding[]
+
+  UserPositions UserPositions[]
+   waltchlist Watchlist[]
+}
+
+model Company {
+  name             String   @id
+  ticker            String  @unique
+  ceo              String?
+  sector           String?
+  subsector         String?
+  group          String?
+  locations String[]
+
+  marketcap String?
+  revenue  String?
+  yoy_growth String?
+  pat String
+  profit_growth String?
+
+  foreign_trade_exposure Json?
+
+  green_energy_focus String?
+  esg_rating String?
+
+  expansion_plans  String[]
+
+  government_schemes_involvement String[]
+
+  public_sector String?
+
+  fundamentals     Json?
+
+  facevalue        Decimal?
+
+  totalShares      BigInt
+
+ 
+
+  orders   Order[]
+  holdings UserHolding[]
+  positions UserPositions[]
+    watchlist Watchlist[]
+}
+model Order {
+  order_id             String @id @default(uuid())
+  companyName          String
+  userId               String
+  status               OrderStatus @default(PENDING)
+  price                Decimal?
+  quantity             Int
+  datetimePlaced       DateTime @default(now())
+  datetimeCompleted    DateTime?
+  amount               Decimal? // set after completion to whatver the amount was
+  order_type           OrderType
+  isIntraday           Boolean @default(false)
+  stopLossParentOrderId String? @unique
+  closingOrderId       String? @unique
+  transactions         Json? // store all transactions in this order
+  // Define both sides of the relations
+  stopLossParent       Order?  @relation("StopLossParent", fields: [stopLossParentOrderId], references: [order_id], onDelete: SetNull)
+  stopLossChild        Order?  @relation("StopLossParent")
+
+  closingParentOrder   Order?  @relation("ClosingOrder", fields: [closingOrderId], references: [order_id], onDelete: SetNull)
+  closingChildOrder    Order?  @relation("ClosingOrder")
+
+  isMarketOrder        Boolean @default(false)
+
+  positionId           BigInt? // for intraday orders
+  holdingId            BigInt? // for delivery orders
+
+  user                 User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  company              Company  @relation(fields: [companyName], references: [name], onDelete: Cascade)
+  // executions           OrderExecution[]
+  userPositions        UserPositions?   @relation(fields: [positionId], references: [id], onDelete: SetNull)
+
+  userHoldings         UserHolding?   @relation(fields: [holdingId], references: [id], onDelete: SetNull)
+
+  @@index([userId, isIntraday])
+  @@index([status, isIntraday])
+  @@index([datetimePlaced])
+
+}
+
+
+
+model UserHolding {
+  id           BigInt  @id @default(autoincrement())
+  userId       String
+  companyName  String
+  quantity     Int
+
+  lockedSharesForSell Int @default(0) // locked shares for sell
+
+  // lockedSharesForSell Int @default(0)
+  averagePrice Decimal @default(0.00)
+
+  user         User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  company      Company @relation(fields: [companyName], references: [name], onDelete: Cascade)
+
+  orders       Order[]
+
+  @@unique([userId, companyName]) // Ensures one row per user-company combination
+}
+
+
+
+model UserPositions {
+  id           BigInt  @id @default(autoincrement())
+  userId       String
+  day          String   @default("") // Store date as string (YYYY-MM-DD)
+  companyName  String
+  intradayQtySell  Int? 
+  intradayQtyBuy  Int?
+  amountInvestedIntradayBuy Decimal // negative means that position is to shortsell
+  amountInvestedIntradaySell Decimal // for one perticular position, 
+  positionClosed         Boolean @default(false) // do this at EOD
+  user         User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  company      Company @relation(fields: [companyName], references: [name], onDelete: Cascade)
+
+  orders   Order[]
+
+  @@unique([userId, companyName, day]) // Ensures one row per user-company combination
+}
+
+model Watchlist {
+  id           BigInt  @id @default(autoincrement())
+  userId       String
+  companyName  String
+
+  user         User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  company      Company @relation(fields: [companyName], references: [name], onDelete: Cascade)
+
+  @@unique([userId, companyName]) // Ensures one row per user-company combination
+}
+
+enum OrderStatus {
+  PENDING
+  COMPLETED
+  CANCELED
+}
+
+enum OrderType {
+  BUY
+  SELL
+}
+
+
+
+
