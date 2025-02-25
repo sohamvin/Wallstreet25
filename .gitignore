@@ -1,0 +1,5 @@
+venv/
+.env
+bot.log
+botThree.log
+updatebot.log
