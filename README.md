@@ -42,7 +42,7 @@ OR
 Clone the repository and check out the different branches as needed:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/sohamvin/Wallstreet25.git
 cd Wallstreet25
 ```
 
@@ -66,23 +66,33 @@ Ensure RabbitMQ is running either as a local service or Docker container before 
 # Check out the MatchingEngine branch
 git checkout MatchingEngine
 
-# Start in development mode
+# OR start as a daemon for production
 ./start.sh
 
-# OR start as a daemon for production
+# Start in development mode
 ./activate.sh
 
 # Check out the Bots branch
 git checkout Bots
 
-# Start in development mode
+# OR start as a daemon for production
 ./start.sh
 
-# OR start as a daemon for production
+# Start in development mode
 ./activate.sh
 ```
 
 ### 3. Backend Setup
+.env =>
+
+MONGO_URI=mongodb://localhost:27017/wallstreet25
+PORT=3502
+DATABASE_URL="postgresql://postgres:password@localhost:5432/wallstreet25?schema=public"
+JWT_SECRET=$(get from node generateSecret.js)
+RABBITMQ_USER=guest
+RABBITMQ_PASS=guest
+RABBITMQ_HOST=localhost
+RABBITMQ_PORT=5672
 
 ```bash
 # Check out the Backend branch
@@ -92,16 +102,7 @@ git checkout Backend
 npm install
 
 # Create .env file
-cat > .env << EOF
-MONGO_URI=mongodb://localhost:27017/wallstreet25
-PORT=3502
-DATABASE_URL="postgresql://postgres:password@localhost:5432/wallstreet25?schema=public"
-JWT_SECRET=$(node generateSecret.js)
-RABBITMQ_USER=guest
-RABBITMQ_PASS=guest
-RABBITMQ_HOST=localhost
-RABBITMQ_PORT=5672
-EOF
+
 
 # Set up database schema
 npx prisma generate
@@ -156,6 +157,9 @@ EOF
 # Start the Flask server
 ./start_flask.sh
 
+#Stop the flask server
+./stop_flask.sh
+
 # Generate news (run manually or set up as a cron job)
 ./run_cron.sh
 ```
@@ -171,6 +175,11 @@ For production, consider setting up a cron job to generate news every 20 minutes
 ```
 
 ### 6. Frontend Setup
+.env => 
+
+VITE_SOCKET_LINK=http://localhost:3502
+VITE_BACKEND_URL=http://localhost:3502
+Or whatver your Port is
 
 ```bash
 # Check out the Frontend branch
@@ -179,19 +188,13 @@ git checkout Wallstreet25Frontend
 # Install dependencies
 npm install
 
-# Create .env file
-cat > .env << EOF
-VITE_SOCKET_LINK=http://localhost:3502
-VITE_BACKEND_URL=http://localhost:3502
-EOF
-
 # Start development server
 npx vite@latest
 ```
 
 ## Market Operations
 
-You can use the provided scripts to open and close the market:
+You can use the provided scripts to open and close the market in production:
 
 ```bash
 # Open the market
