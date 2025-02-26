@@ -175,7 +175,6 @@ io.on('connection', (socket) => {
                 let messaGGe = typeof message === 'string' ? JSON.parse(message) : message;
                 messaGGe.company = company;
                 messaGGe.price = parseFloat(messaGGe.price).toFixed(2);
-                console.log(messaGGe)
                 socket.emit('market', messaGGe);
 
                 const buyVol = {
@@ -253,7 +252,6 @@ const runClients = async () => {
                     "high_price": message,
                     "company": company
                 };
-                console.log('High price:', highPrice);
                 io.to(company).emit('high_price', highPrice);
             });
 
@@ -262,7 +260,6 @@ const runClients = async () => {
                     "low_price": message,
                     "company": company
                 };
-                console.log('Low price:', lowPrice);
                 io.to(company).emit('low_price', lowPrice);
             });
 
