@@ -17,5 +17,7 @@ source venv/bin/activate
 # Install requirements
 pip install -r requirements.txt
 
+python3 open_market.py
+
 # Run WorkerTwo.py
 python updatebot.py
