@@ -1,0 +1,27 @@
+/* IntradayProfitLossCard.css */
+.intraday-profit-loss-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.intraday-profit-loss-card h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.intraday-profit-loss-card .profit,
+.intraday-profit-loss-card .loss {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.intraday-profit-loss-card .profit {
+  color: #38a169; /* Green for profit */
+}
+
+.intraday-profit-loss-card .loss {
+  color: #e53e3e; /* Red for loss */
+}

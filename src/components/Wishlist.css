@@ -1,0 +1,485 @@
+<<<<<<< HEAD
+/* Always dark mode styling */
+:root {
+  --bg-color: #1a202c;
+  --text-color: #e0e0e0;
+  --accent-color: #484846; /* Warm orange accent */
+  --card-bg: #2d3748;
+  --card-shadow: rgba(0, 0, 0, 0.7);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Container for the wishlist page */
+.wishlist-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings and Subheading */
+.wishlist-heading {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #5eb5f8;
+}
+
+.wishlist-subheading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Grid layout for wishlist stocks */
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+/* Adjust Stock Card */
+.wishlist-card {
+  background-color: var(--card-bg);
+  border-radius: 15px;
+  box-shadow: 0 2px 4px var(--card-shadow);
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  width: 190px; /* Fixed width for larger screens */
+  margin: 0 auto;
+}
+
+.wishlist-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(94, 181, 248, 0.3);
+}
+
+/* Card Header */
+.wishlist-card-header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid var(--card-shadow);
+}
+
+/* Ranking number badge */
+.wishlist-rank {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: var(--accent-color);
+}
+
+/* Center Stock Info */
+.wishlist-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Style for the "Add Stocks" button */
+.add-stock-message {
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+.btn-add-stock {
+  padding: 12px 24px;
+  background-color: #38a169;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.btn-add-stock:hover {
+  background-color: #2f855a;
+}
+
+.wishlist-logo {
+  background-color: var(--accent-color);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.wishlist-info h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #5eb5f8;
+}
+
+.wishlist-exchange {
+  font-size: 14px;
+}
+
+/* Price Section */
+.wishlist-price-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notification {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.wishlist-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wishlist-change {
+  font-size: 14px;
+}
+
+/* Price Change Colors */
+.green {
+  color: #28a745;
+}
+
+.red {
+  color: #dc3545;
+}
+
+/* Loader */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+/* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 600px) {
+  .wishlist-container {
+    padding: 10px;
+  }
+
+  /* Adjust grid to use smaller cards and center them */
+  .wishlist-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+    justify-items: center;
+  }
+
+  /* Remove fixed width on cards so they fill available space */
+  .wishlist-card {
+    width: 100%;
+    max-width: 140px;
+    margin: 0 auto;
+  }
+
+  .wishlist-heading {
+    font-size: 28px;
+  }
+
+  .wishlist-subheading {
+    font-size: 16px;
+  }
+  .notification {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+
+    right: 10px;
+    z-index: 1000;
+    width: 50%; /* Allow the notification to be more fluid */
+    left: 70%; /* Position it centered horizontally */
+    top: 15px; /* Ensure it doesn't overlap with other content */
+    font-size: 14px;
+  }
+}
+=======
+/* Always dark mode styling */
+:root {
+  --bg-color: #1a202c;
+  --text-color: #e0e0e0;
+  --accent-color: #484846; /* Warm orange accent */
+  --card-bg: #2d3748;
+  --card-shadow: rgba(0, 0, 0, 0.7);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Container for the wishlist page */
+.wishlist-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings and Subheading */
+.wishlist-heading {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #5eb5f8;
+}
+
+.wishlist-subheading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Grid layout for wishlist stocks */
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+/* Adjust Stock Card */
+.wishlist-card {
+  background-color: var(--card-bg);
+  border-radius: 15px;
+  box-shadow: 0 2px 4px var(--card-shadow);
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  width: 190px; /* Fixed width for larger screens */
+  margin: 0 auto;
+}
+
+.wishlist-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(94, 181, 248, 0.3);
+}
+
+/* Card Header */
+.wishlist-card-header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid var(--card-shadow);
+}
+
+/* Ranking number badge */
+.wishlist-rank {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: var(--accent-color);
+}
+
+/* Center Stock Info */
+.wishlist-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Style for the "Add Stocks" button */
+.add-stock-message {
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+.btn-add-stock {
+  padding: 12px 24px;
+  background-color: #38a169;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.btn-add-stock:hover {
+  background-color: #2f855a;
+}
+
+.wishlist-logo {
+  background-color: var(--accent-color);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.wishlist-info h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #5eb5f8;
+}
+
+.wishlist-exchange {
+  font-size: 14px;
+}
+
+/* Price Section */
+.wishlist-price-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notification {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.wishlist-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wishlist-change {
+  font-size: 14px;
+}
+
+/* Price Change Colors */
+.green {
+  color: #28a745;
+}
+
+.red {
+  color: #dc3545;
+}
+
+/* Loader */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+/* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 600px) {
+  .wishlist-container {
+    padding: 10px;
+  }
+
+  /* Adjust grid to use smaller cards and center them */
+  .wishlist-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+    justify-items: center;
+  }
+
+  /* Remove fixed width on cards so they fill available space */
+  .wishlist-card {
+    width: 100%;
+    max-width: 140px;
+    margin: 0 auto;
+  }
+
+  .wishlist-heading {
+    font-size: 28px;
+  }
+
+  .wishlist-subheading {
+    font-size: 16px;
+  }
+  .notification {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+
+    right: 10px;
+    z-index: 1000;
+    width: 50%; /* Allow the notification to be more fluid */
+    left: 70%; /* Position it centered horizontally */
+    top: 15px; /* Ensure it doesn't overlap with other content */
+    font-size: 14px;
+  }
+}
+>>>>>>> c36fe0a82c14d8aa5515501f374a1f60eb5edce9

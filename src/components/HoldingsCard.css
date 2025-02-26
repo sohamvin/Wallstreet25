@@ -1,0 +1,101 @@
+/* HoldingsCard.css */
+
+/* Card container styling */
+.holdings-card {
+  padding: 20px;
+  background-color: #2d3748;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Heading styling */
+.holdings-card h2 {
+  font-size: 24px;
+  color: #5eb5f8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Table container with vertical & horizontal scroll */
+.holdings-table-container {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 10px;
+}
+
+/* Table styling */
+.holdings-card table {
+  width: 100%;
+  min-width: 700px; /* Ensures columns don’t collapse */
+  border-collapse: collapse;
+}
+
+/* Table header styling */
+.holdings-card th {
+  background-color: #2d3748;
+  color: #5eb5f8;
+  padding: 12px 16px;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 2px solid #5eb5f8;
+ 
+}
+
+/* Table cell styling */
+.holdings-card td {
+  background-color: #2d3748;
+  padding: 12px 16px;
+  text-align: center;
+ color:white;
+ 
+}
+
+/* Hover effect on table rows */
+.holdings-card tbody tr:hover td {
+  background-color: #2d3748;
+  transition: background-color 0.3s;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .holdings-card {
+    padding: 10px;
+  }
+  
+  .holdings-card h2 {
+    font-size: 1.5rem;
+  }
+  
+  .holdings-card th,
+  .holdings-card td {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  
+  .holdings-table-container {
+    max-height: 300px;
+  }
+  
+  /* Reduce minimum width on mobile to avoid excessive horizontal scrolling */
+  .holdings-card table {
+    min-width: 500px;
+  }
+}
+
+/* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}

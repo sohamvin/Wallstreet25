@@ -1,0 +1,24 @@
+/* NetWorthCard.css */
+.net-worth-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.net-worth-card h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.net-worth-card .value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2f855a; /* Green color for positive net worth */
+}
+
+.net-worth-card .negative-value {
+  color: #e53e3e; /* Red color for negative net worth */
+}
+

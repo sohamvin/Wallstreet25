@@ -1,0 +1,110 @@
+/* Outer container */
+.order-details {
+  padding: 20px;
+  background-color: #2d3748;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  color: #f7fafc;
+}
+
+/* Heading */
+.order-details h3 {
+  font-size: 28px;
+  color: #f7fafc;
+  margin-bottom: 20px;
+}
+
+/* Scroll container: allows horizontal scrolling if table is too wide */
+.order-table-container {
+  overflow-x: auto;
+  overflow-y: auto; /* Keep vertical scroll if needed */
+  max-height: 400px; /* Adjust as necessary */
+  -webkit-overflow-scrolling: touch;
+  margin-top: 10px;
+}
+
+/* Table reset: remove extra row spacing and allow columns to align properly */
+.order-details table {
+  width: 100%;
+  min-width: 800px; /* Ensures columns have room before wrapping */
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Table header with accent color */
+.order-details th {
+  background-color: #2d3748;
+  color: #5eb5f8;
+  padding: 12px 16px;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 2px solid #5eb5f8;
+   /* Prevent text wrapping */
+}
+
+/* Table cells with a solid border */
+.order-details td {
+  background-color: #1a202c;
+  padding: 12px 16px;
+  text-align: center;
+  /* Prevent text wrapping */
+}
+
+/* Hover effect on rows */
+.order-details tbody tr:hover td {
+  background-color: #2d3748;
+  transition: background-color 0.3s;
+}
+
+/* Responsive font adjustments if needed */
+
+
+/* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}
+
+/* Original styles remain unchanged for desktop */
+.order-details td {
+  background-color: #1a202c;
+  padding: 12px 16px;
+  text-align: center;
+   /* Prevent text wrapping for most cells */
+}
+
+/* New class for company name cells */
+.order-details td.company-name {
+  /* Initially keep nowrap for consistency on larger screens */
+
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 768px) {
+  .order-details h3 {
+    font-size: 1.5rem;
+  }
+  
+  .order-details th,
+  .order-details td {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  
+  /* Override for the company name cell on mobile */
+  .order-details td.company-name {
+    white-space: normal;       /* Allow text wrapping */
+    word-break: break-word;     /* Break long words if necessary */
+    max-width: 150px;           /* Limit the cell's width */
+  }
+}

@@ -1,0 +1,417 @@
+/* Modal Overlay */
+.sell-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+/* Modal Container */
+.sell-modal {
+  background: #2d3748;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  animation: slideDown 0.3s ease-out;
+  -webkit-animation: slideDown 0.3s ease-out;
+  color: #edf2f7;
+  max-height: 90vh; /* Limits modal height to 90% of viewport */
+  overflow-y: auto; /* Enables vertical scrolling if needed */
+  margin: auto; /* Ensures center alignment */
+}
+
+/* SlideDown Animation */
+@keyframes slideDown {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideDown {
+  from {
+    -webkit-transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Modal Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.modal-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.modal-close-btn {
+  background: none;
+  border: none;
+  color: #a0aec0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.modal-close-btn:hover {
+  color: #edf2f7;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Modal Body */
+.modal-body {
+  margin-bottom: 30px;
+}
+
+/* Price Info Section */
+.price-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  gap: 15px;
+}
+
+.price-box {
+  flex: 1;
+  background: #414141;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.price-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.price-label {
+  font-size: 0.9rem;
+  color: #a0aec0;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.price-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.price-change {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.price-change.positive {
+  color: #38a169;
+}
+
+.price-change.negative {
+  color: #e53e3e;
+}
+
+/* Order Form */
+.order-form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #a0aec0;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 1px solid #4a5568;
+  border-radius: 8px;
+  background: #414141;
+  color: #edf2f7;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #5eb5f8;
+  box-shadow: 0 0 0 2px rgba(94, 181, 248, 0.25);
+}
+
+/* Modal Summary */
+.modal-summary {
+  background: #414141;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.summary-row:last-child {
+  margin-bottom: 0;
+}
+
+.summary-label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #a0aec0;
+}
+
+.summary-label svg {
+  margin-right: 8px;
+}
+
+.summary-value {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Modal Footer */
+.modal-footer {
+  text-align: center;
+}
+
+.action-button {
+  padding: 14px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #e53e3e;
+  color: #fff;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.action-button:hover:not(:disabled) {
+  background: #c53030;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.action-button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.action-button:disabled {
+  background: #4a5568;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+/* Laptop and Desktop Styles */
+@media (min-width: 1024px) {
+  .sell-modal {
+    padding: 40px 50px;
+    max-width: 550px;
+  }
+  
+  .modal-title {
+    font-size: 2rem;
+  }
+  
+  .price-value, .price-change {
+    font-size: 1.8rem;
+  }
+  
+  .form-group input {
+    padding: 14px;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 1023px) {
+  .sell-modal {
+    padding: 35px 40px;
+    max-width: 520px;
+  }
+}
+
+/* Mobile Styles - Keep your existing responsive styles */
+@media (max-width: 600px) {
+  .sell-modal {
+    padding: 30px 20px;
+    max-width: 90%;
+  }
+  .price-info, .order-form {
+    flex-direction: column;
+  }
+  .price-box, .form-group {
+    margin-bottom: 15px;
+  }
+  .modal-title {
+    font-size: 1.8rem;
+  }
+  .price-value, .price-change {
+    font-size: 1.4rem;
+  }
+  .action-button {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sell-modal {
+    padding: 20px 15px;
+    max-width: 95%;
+  }
+  .modal-title {
+    font-size: 1.6rem;
+  }
+  .price-label, .summary-label, .form-group label {
+    font-size: 0.9rem;
+  }
+  .price-value, .price-change, .summary-value {
+    font-size: 1.2rem;
+  }
+  .action-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .sell-modal {
+    padding: 30px 20px;
+    max-width: 90%;
+  }
+  .price-info, .order-form {
+    flex-direction: column;
+  }
+  .price-box, .form-group {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .modal-title {
+    font-size: 1.8rem;
+  }
+  .price-value, .price-change {
+    font-size: 1.4rem;
+  }
+  .action-button {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sell-modal {
+    padding: 20px 15px;
+    max-width: 95%;
+  }
+  .modal-title {
+    font-size: 1.6rem;
+  }
+  .price-label, .summary-label, .form-group label {
+    font-size: 0.9rem;
+  }
+  .price-value, .price-change, .summary-value {
+    font-size: 1.2rem;
+  }
+  .action-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Circuit Warning Styles */
+.circuit-warning {
+  display: flex;
+  align-items: center;
+  background-color: rgba(229, 62, 62, 0.1);
+  border: 1px solid #e53e3e;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+.warning-icon {
+  color: #e53e3e;
+  flex-shrink: 0;
+  margin-right: 12px;
+}
+
+.circuit-warning p {
+  margin: 0;
+  color: #e53e3e;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+  .circuit-warning {
+    padding: 10px 12px;
+  }
+  
+  .circuit-warning p {
+    font-size: 0.8rem;
+  }
+}
+/* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}

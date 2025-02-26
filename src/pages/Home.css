@@ -1,0 +1,209 @@
+/* Reset defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  min-height: 100vh;
+  background-color: #1a202c;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.3);
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #a0aec0;
+}
+
+.start-trading-button {
+  background-color: #38a169;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.start-trading-button:hover {
+  transform: scale(1.05);
+}
+
+/* Floating Tickers */
+.floating-ticker {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(56, 161, 105, 0.5);
+  animation: float 5s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* How to Play Section */
+.how-to-play {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 20px;
+  text-align: center;
+}
+
+.how-to-play h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+  color: #a0aec0;
+  margin-left: 0.5rem;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.step {
+  background-color: #2d3748;
+  padding: 1.5rem;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.step-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #38a169;
+}
+
+.step h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.step p {
+  color: #a0aec0;
+  font-size: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-description {
+    font-size: 1rem;
+  }
+  .start-trading-button {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+  .floating-ticker {
+    font-size: 1.5rem;
+  }
+  .how-to-play h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

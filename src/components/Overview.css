@@ -1,0 +1,45 @@
+.today-range-card {
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.range-values {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.range-bar {
+  position: relative;
+  height: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.range-progress {
+  height: 100%;
+  background-color: #007bff;
+}
+
+.range-marker {
+  position: absolute;
+  top: -4px;  /* Centers the marker vertically over the progress bar */
+  width: 8px;
+  height: 8px;
+  background-color: #0056b3;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}

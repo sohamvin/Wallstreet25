@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
+
+* {
+  font-family: "Quantico";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  background-color: #373a46;
+}
+
+
+
+#menu .active {
+  color: #fefdff;
+}
+
+.title {
+  color: #5eb5f8;
+  font-size: 29px;
+  white-space: nowrap;
+}
+.desktoptitle {
+  color: #fefdff;
+  font-size: 29px;
+  white-space: nowrap;
+}
+.navitems {
+  color: #676976;
+  transition: 0.4s;
+  font-size: 26px;
+  text-decoration: none;
+}
+.navitemwallet {
+  color: #676976;
+  transition: 0.4s;
+  font-size: 26px;
+  text-decoration: none;
+}
+.navitems:focus {
+  color: #fefdff;
+}
+
+.navitems:active {
+  color: #fefdff;
+}
+
+.navitems:hover {
+  color: #fefdff;
+}
+
+.logoutbtn {
+  border-style: solid;
+  border-color: #5eb5f8;
+  color: #5eb5f8;
+  border-width: 2px;
+  border-radius: 12.5px;
+  transition: 0.4s;
+}
+
+.logoutbtn:hover {
+  border-color: #fefdff;
+  color: hsl(270, 100%, 100%);
+  cursor: pointer;
+}
+
+.stockcard-body {
+  padding: 8px;
+}
+
+.stockcard {
+  background-color: #3d3d4d;
+  border-radius: 10px;
+  border: none;
+  color: #fefdff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.stockcard:hover {
+  top: -3px;
+  transition: top 0.1s ease-out;
+  cursor: pointer;
+}
+
+.stocktitle {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.stockdetailtitle {
+  font-weight: bold;
+  font-size: 25px;
+  color: #5eb5f8;
+  margin-top: -2px;
+}
+
+.stockname {
+  color: #676976;
+}
+
+.stockdetailname {
+  margin-top: -2px;
+  color: #fefdff;
+}
+
+.stockinformation {
+  color: #fefdff;
+}
+
+.searchbar {
+  background-color: #373a46;
+  border: none;
+  border-radius: 15px;
+  width: 48vw;
+  color: #5eb5f8;
+}
+
+.searchbar:focus {
+  color: #fefdff;
+}
+
+.form-control:focus {
+  background-color: #3d3d4d;
+}
+
+.btnbuysell {
+  color: #fefdff;
+  border-radius: 8px;
+  padding: 35px;
+}
+
+.btnbalance {
+  margin-top: 2px;
+  background-color: #33a7ff;
+  color: #fefdff;
+  border: #5eb5f8;
+  border-radius: 10px;
+  align-self: center;
+  font-weight: bold;
+}
+
+.portfoliobalance {
+  /* margin-top: 2px; */
+  background-color: #33a7ff;
+  color: #fefdff;
+  border: #5eb5f8;
+  border-radius: 10px;
+  align-self: center;
+  font-weight: bold;
+}
+
+.chart-container {
+  margin-bottom: 5rem;
+  width: 90%;
+}
+
+.newsdetailheadline {
+  color: #5eb5f8;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.newsbody {
+  color: #fefdff;
+  font-size: 20px;
+  line-height: 2.3rem;
+  text-align: justify;
+}
+
+.upcoming {
+  color: #5eb5f8;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.ipoupcoming {
+  color: #5eb5f8;
+  font-size: 25px;
+  /* margin-top: 25px; */
+}
+.ranking {
+  color: #5eb5f8;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.subscribe {
+  background-color: #33a7ff;
+  color: #fefdff;
+}
+
+.subscribe:hover {
+  background-color: hsl(206, 90%, 45%);
+  color: #fefdff;
+}
+
+body {
+  margin: 0;
+  background-color: #151824;
+}
+
+/*Login form*/
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.login-form {
+  background-color: #3c3c4d;
+  border-radius: 14px;
+  width: 400px;
+  padding: 20px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  border: none;
+  border-radius: 20px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 20px;
+  width: 100%;
+  background-color: #515268;
+  color: #fff;
+}
+
+.login-form input[type="submit"] {
+  background-color: hsl(205, 62%, 50%);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: hsl(205, 62%, 45%);
+}
+
+.login-form h4 {
+  color: #5eb5f8;
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+}
+
+/*Modal*/
+.ipoModal {
+  background-color: #3d3d4d;
+}
+
+.modal-dialog {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  min-height: calc(100%-0rem);
+}
+
+.modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  width: auto;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+.modalcontent {
+  font-weight: lighter;
+  font-size: 16px;
+  align-content: justify;
+}
+.modal-body {
+  text-align: justify;
+  text-justify: distribute-all-lines;
+}
+
+.modalclosebtn {
+  width: auto;
+}
+.ipodetailtitle {
+  font-size: 19px;
+  color: #5eb5f8;
+}
+.modaltitle {
+  color: #5eb5f8;
+  flex: 1;
+  margin: 0 auto;
+}
+
+.stockquantity {
+  width: 80px;
+  padding: 2px;
+  margin-bottom: -80px;
+}
+.note {
+  margin-bottom: 10px;
+}
+.modal-footer {
+  justify-content: center;
+}
+.modal {
+  text-align: center;
+}
+.buyModal {
+  background-color: #3d3d4d;
+}
+
+/* Home page & Portfolio */
+section {
+  padding: 40px 0;
+}
+.navbartitle {
+  color: #5eb5f8;
+  font-size: 26px;
+}
+.footer {
+  background-color: #1d1d2a;
+  padding: 11px 0px;
+}
+.footerhome {
+  background-color: #33333d;
+  padding: 11px 0px;
+}
+.footerlogin {
+  background-color: #33333d;
+  padding: 11px 0px;
+}
+.desktopNavbar {
+  background-color: #262636;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+.content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.ourTeamTitle {
+  color: #5eb5f8;
+  font-size: 28px;
+  margin-top: 10px;
+}
+.portfoliotitle {
+  color: #5eb5f8;
+  font-size: 28px;
+  margin-top: 10px;
+}
+.navItem {
+  margin: 0px 8px;
+}
+.navItem:focus {
+  color: #5eb5f8;
+}
+.navItem:active {
+  color: #5eb5f8;
+}
+.navItem:hover {
+  color: #5eb5f8;
+}
+.homepage {
+  margin-top: 20px;
+}
+.homepageLogin {
+  margin-top: 65px;
+}
+.loader {
+  justify-content: center;
+  margin-top: 200px;
+}
+.rulesCard {
+  background-color: #2d3748;
+  border-radius: 15px;
+}
+.rulesCardTitle {
+  color: #5eb5f8;
+  padding: 10px 0px;
+  font-size: 26px;
+}
+.rulesPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+/* Navbar fixes */
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #ffffff;
+  background-color: #33333d;
+}
+
+.navbar-dark .navbar-toggler {
+  color: #3d3d4d;
+  border-color: #3d3d4d;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border: 0px solid transparent;
+  transition: none;
+}
+
+/* PortfolioNew */
+.portfolioTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d3d4d;
+  /* border-radius: 1px; */
+  width: 75%;
+}
+.table {
+  table-layout: fixed;
+}
+.table > :not(caption) > * > * {
+  padding: 0.5rem 0.5rem;
+  background-color: var(--bs-table-bg);
+  border-bottom-width: 0px;
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+.portfolioCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d3d4d;
+  border-radius: 12px;
+  width: 75%;
+}
+
+/* coming soon page css */
+.comingsoon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.comingsoonText {
+  color: #fefdff;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+}
+
+#logo {
+  display: block;
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin-right: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100% - 3.5rem);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 576px) {
+  .searchbar {
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: -30px;
+    padding-block: 15px;
+    height: 45px;
+  }
+  .mobilesearchbar {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .upcoming {
+    margin-top: 38px;
+  }
+  .ipoupcoming {
+    margin-top: 28px;
+  }
+  .ranking {
+    margin-top: 42px;
+  }
+  .newsdetailheadline {
+    margin-top: 30px;
+  }
+  .newsbody {
+    text-align: left;
+  }
+  .loader {
+    margin-top: 250px;
+  }
+  .homepage {
+    margin-top: 0px;
+  }
+  .homepageLogin {
+    margin-top: 0px;
+  }
+  .footerlogin {
+    background-color: #1d1d2a;
+    padding: 11px 0px;
+  }
+  .comingsoon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: #fefdff;
+  }
+  .portfolioTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d3d4d;
+    /* border-radius: 15px; */
+    width: 90%;
+  }
+  .portfolioCard {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .buyModal {
+    margin-left: 20vh;
+    margin-right: 20vh;
+  }
+}

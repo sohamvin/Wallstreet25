@@ -1,0 +1,57 @@
+/* CompanyWisePnL.css */
+.company-wise-pnl {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.company-wise-pnl h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.company-wise-pnl table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.company-wise-pnl th,
+.company-wise-pnl td {
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.company-wise-pnl th {
+  background-color: #f7fafc;
+  font-weight: bold;
+}
+
+.company-wise-pnl td {
+  background-color: #f9f9f9;
+}
+
+.company-wise-pnl .profit {
+  color: #38a169;
+}
+
+.company-wise-pnl .loss {
+  color: #e53e3e;
+}
+/* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}

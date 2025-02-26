@@ -1,0 +1,41 @@
+/* OrderDetails.css */
+.order-details {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.order-details h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.order-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-details li {
+  padding: 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.order-details li:last-child {
+  border-bottom: none;
+}
+
+.order-details .order-time {
+  font-size: 14px;
+  color: #718096;
+}
+
+.order-details .order-status {
+  font-size: 16px;
+  color: #2f855a; /* Green for completed orders */
+}
+
+.order-details .order-status.pending {
+  color: #e53e3e; /* Red for pending orders */
+}

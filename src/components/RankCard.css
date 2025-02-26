@@ -1,0 +1,53 @@
+/* src/components/LeaderboardCard.css */
+.leaderboard-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background-color: #2d3748;
+    border-radius: 8px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .leaderboard-card:hover {
+    transform: translateY(-2px);
+    background-color: #2a2a2a;
+  }
+  
+  .cell {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .rank-cell { flex: 0.5; }
+  .name-cell { flex: 2; }
+  .cash-cell, .total-cell { flex: 1.5; }
+  
+  /* Responsive adjustments for mobile devices */
+  @media (max-width: 600px) {
+    .leaderboard-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .cell {
+      width: 100%;
+      text-align: left;
+      padding: 0.25rem 0;
+    }
+  }
+  
+  /* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}

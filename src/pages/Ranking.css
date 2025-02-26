@@ -1,0 +1,107 @@
+
+.leaderboard-container {
+    background-color: #1a202c;
+    min-height: 100vh;
+    padding: 2rem;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .leaderboard-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .leaderboard-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #343d50;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .header-cell {
+    flex: 1;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Adjust flex values for each header cell */
+  .rank-header { flex: 0.5; }
+  .name-header { flex: 2; }
+  .cash-header, .total-header { flex: 1.5; }
+  
+  .leaderboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+  }
+  
+  /* Mobile responsiveness adjustments */
+  @media (max-width: 600px) {
+    .leaderboard-header, .leaderboard-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .header-cell, .cell {
+      text-align: left;
+      padding: 0.5rem 0;
+    }
+  }
+  
+/* Container for the leaderboard list */
+.leaderboard-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* Individual rank cards */
+.rank-card {
+  flex: 1 1 calc(25% - 0.75rem); /* Four cards per row */
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Media query for tablets */
+@media (max-width: 992px) {
+  .rank-card {
+    flex: 1 1 calc(50% - 0.75rem); /* Two cards per row */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  .rank-card {
+    flex: 1 1 100%; /* One card per row */
+  }
+}
+
+/* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}
+
+

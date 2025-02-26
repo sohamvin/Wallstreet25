@@ -1,0 +1,162 @@
+/* Sidebar container */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 100vh;
+  background-color: #2d3748;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  z-index: 1000;
+  padding: 20px 10px;
+  transition: transform 0.4s ease-in-out;
+  /*z-index: 1000;
+  */:;
+  -webkit-transition: transform 0.4s ease-in-out;
+  -moz-transition: transform 0.4s ease-in-out;
+  -ms-transition: transform 0.4s ease-in-out;
+  -o-transition: transform 0.4s ease-in-out;
+}
+
+/* Sidebar closed state */
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+/* Sidebar open state */
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* Hamburger icon for mobile */
+.hamburger {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 30px;
+  color: #fff;
+  z-index: 3000;
+  cursor: pointer;
+}
+
+.sidebar.open ~ .hamburger {
+  position: relative;
+  top: auto;
+  left: auto;
+  z-index: 100;
+}
+
+/* Logo container adjustments to shift it upwards */
+.logo-container {
+  margin-top: 40px; /* Reduced the margin to move it up */
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  margin-right: 12px;
+  margin-top: px;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-item {
+  margin-bottom: 12px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #5eb5f8;
+  border-radius: 8px;
+}
+
+/* Icon style */
+.icon {
+  margin-right: 12px;
+  font-size: 22px;
+}
+
+/* Logout button adjustments to move it up */
+.logoutbtn {
+  background: none;
+  border: 2px solid #5eb5f8;
+  color: #5eb5f8;
+  border-radius: 12px;
+  padding: 10px 16px; /* Adjusted padding for better visibility */
+  margin-top: auto;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Logout button hover effect */
+.logoutbtn:hover {
+  background-color: #5eb5f8;
+  color: #fff;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+  /* Adjust content area via a class (see App.css or inline styles) */
+  .content-area.with-sidebar {
+    margin-left: 200px;
+  }
+
+  /* Logo container adjustments for mobile devices */
+  .logo-container {
+    margin-top: 40px; /* Further reduce margin on mobile for compactness */
+  }
+
+  .logoutbtn {
+    padding-top: 5px;
+    padding-bottom: 5px; /* Adjust padding for mobile screens */
+  }
+}
+
+/* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}

@@ -1,0 +1,120 @@
+/* Existing transaction history styles remain unchanged */
+.transaction-history {
+  padding: 20px;
+  background-color: #2d3748;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  color: #f7fafc;
+}
+
+.transaction-history h2 {
+  font-size: 28px;
+  color: #f7fafc;
+  margin-bottom: 20px;
+}
+
+.transaction-table-container {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 10px;
+}
+
+.transaction-history table {
+  width: 100%;
+  min-width: 700px; /* Ensures table structure is maintained */
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.transaction-history th {
+  background-color: #2d3748;
+  color: #5eb5f8;
+  padding: 12px 16px;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 2px solid #5eb5f8;
+}
+
+.transaction-history td {
+  background-color: #1a202c;
+  padding: 12px 16px;
+  text-align: center;
+  border-bottom: 1px solid #4a5568;
+}
+
+/* Hover effect for rows */
+.transaction-history tbody tr:hover td {
+  background-color: #2d3748;
+  transition: background-color 0.3s;
+}
+
+/* Optional scrollbar styling */
+.transaction-table-container::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.transaction-table-container::-webkit-scrollbar-track {
+  background: #1a202c;
+}
+
+.transaction-table-container::-webkit-scrollbar-thumb {
+  background: #5eb5f8;
+  border-radius: 4px;
+}
+
+
+
+
+
+/* Existing styles for your transaction table (simplified) */
+.transaction-history table {
+  width: 100%;
+  border-collapse: collapse;
+  /* If you want columns to have fixed widths, consider:
+     table-layout: fixed;
+  */
+}
+
+.transaction-history th,
+.transaction-history td {
+  text-align: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #4a5568;
+  /* Some projects set:
+     white-space: nowrap;
+     If so, we will override it below for the company column.
+  */
+}
+
+/* 1. Assign a dedicated class to the Company column cells. */
+.transaction-history td.company-name {
+  /* 2. Override any global 'nowrap' */
+  white-space: normal;  
+  /* 3. Allow breaking long words or URLs */
+  word-break: break-word; 
+  /* 4. Constrain the width to encourage wrapping */
+  max-width: 150px; 
+  /* Alternatively:
+     overflow-wrap: break-word;
+  */
+}
+
+/* Example media query for smaller devices */
+@media (max-width: 768px) {
+  .transaction-history th,
+  .transaction-history td {
+    font-size: 14px;
+    padding: 8px 12px;
+    
+  }
+
+  .transaction-history td.company-name {
+    white-space: normal;
+    word-break: break-word;
+    max-width: 100px; /* Tighter constraint for mobile */
+  }
+}

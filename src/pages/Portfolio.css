@@ -1,0 +1,174 @@
+/* Overall Portfolio Container */
+.portfolio-container {
+  padding: 30px;
+  z-index:1000;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #e2e8f0;
+  border-radius: 8px;
+  background-color: #1a202c; /* Dark background */
+}
+
+/* Header */
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #2d3748;
+  padding: 20px;
+  border-radius: 8px;
+  color: #edf2f7;
+  font-size: 2rem;
+}
+
+/* Overview Cards */
+.overview-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  gap: 25px;
+}
+.overview-card {
+  flex: 1;
+  background-color: #2d3748;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.overview-card h5 {
+  color: #a0aec0;
+}
+.overview-card p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #edf2f7;
+}
+
+/* Loader */
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+/* Component Container */
+.component-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #2d3748;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #2d3748; /* Adds a subtle separator */
+}
+
+.nav-tabs button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: none;
+  border: none;
+  color: #5eb5f8;
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+
+.nav-tabs button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Active tab indicator */
+.nav-tabs button.active::after,
+.nav-tabs button:hover::after {
+  background-color: #5eb5f8;
+}
+
+/* Component Styling */
+.component-card {
+  text-align: center;
+  margin: 20px 0;
+  background-color: #2d3748;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+.btn-buy {
+  background-color: #38a169;
+  color: #fff;
+}
+.btn-buy:hover {
+  background-color: #2f855a;
+}
+.btn-sell {
+  background-color: #e53e3e;
+  color: #fff;
+}
+.btn-sell:hover {
+  background-color: #c53030;
+}
+
+/* Market Closed Message */
+.market-closed {
+  color: #e53e3e;
+  font-size: 18px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .overview-cards {
+    flex-direction: column;
+  }
+
+  .nav-tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-tabs button {
+    flex: 1;
+  }
+}
+
+/* Custom scrollbar styles for WebKit browsers */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5eb5f8; /* Thumb color */
+  border-radius: 6px; /* Roundness of the thumb */
+  border: 3px solid #1e1e1e; /* Padding around thumb */
+}
