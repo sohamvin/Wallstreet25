@@ -1,0 +1,1646 @@
+[
+	{
+    	"name": "Titanium Consultancy Services",
+    	"ticker": "TCS",
+    	"locations": [
+        	"Mumbai",
+        	"Chennai",
+        	"Pune"
+    	],
+    	"sector": "Information Technology",
+    	"subsector": "IT Services and Consulting",
+    	"group": "Titanium Group",
+    	"ceo": "K. Krishna",
+    	"marketcap": "12,68,914 Cr",
+    	"foreign_investment": "Foreign institutional investors hold approximately 12.46% as of June 2023",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "North America",
+            	"Percentage": "Approximately 50% of revenue"
+        	}
+    	],
+    	"green_energy_focus": "Commitment to sustainable operations and green IT solutions",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Investing in digital transformation services",
+        	"Expanding presence in emerging markets"
+    	],
+    	"facevalue": "1",
+    	"public_sector": "No",
+    	"revenue": "INR 63,973 crore",
+    	"yoy_growth": "5.6%",
+    	"pat": "INR 12,380 crore",
+    	"profit_growth": "5.5%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "31.98",
+        	"ROE": "42.92%",
+        	"Book Value": "450.41",
+        	"Debt to Equity": "0.02",
+        	"Industry P/E": "31.98",
+        	"EPS (TTM)": "125.75",
+        	"Current Ratio": "2.63",
+        	"ROCE": "55.19%",
+        	"RSI": "62.43"
+    	}
+	},
+	{
+    	"name": "NextGen Tech Solutions",
+    	"ticker": "NGTECH",
+    	"locations": [
+        	"Bengaluru",
+        	"Chennai",
+        	"Pune"
+    	],
+    	"sector": "Information Technology",
+    	"subsector": "IT Services and Consulting",
+    	"group": "Independent",
+    	"ceo": "Sahil Parekh",
+    	"marketcap": "5,84,324 Cr",
+    	"foreign_investment": "Foreign institutional investors hold approximately 33.43% as of June 2023",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Global",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"facevalue": "5",
+    	"green_energy_focus": "Carbon neutral for five consecutive years; reduced Scope 1 and 2 GHG emissions by 60.1% over BAU scenario",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Enhancing digital services and consulting offerings",
+        	"Investing in emerging technologies and innovation"
+    	],
+    	"public_sector": "No",
+    	"revenue": "INR 41,764 crore",
+    	"yoy_growth": "7.6%",
+    	"pat": "INR 6,806 crore",
+    	"profit_growth": "11.4%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "24.23",
+        	"ROE": "28.52%",
+        	"Book Value": "201.21",
+        	"Debt to Equity": "0.08",
+        	"Industry P/E": "24.23",
+        	"EPS (TTM)": "55.07",
+        	"Current Ratio": "2.81",
+        	"ROCE": "36.21%",
+        	"RSI": "57.75"
+    	}
+	},
+	{
+    	"name": "HCL Systems",
+    	"ticker": "HCLS",
+    	"locations": [
+        	"Noida",
+        	"Chennai",
+        	"Bengaluru"
+    	],
+    	"sector": "Information Technology",
+    	"subsector": "IT Services and Consulting",
+    	"group": "Independent",
+    	"ceo": "Vijay K",
+    	"marketcap": "3,25,837 Cr",
+    	"foreign_investment": "Foreign institutional investors have been increasing their stake for three consecutive quarters as of June 2023",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Global",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Achieve net zero by 2040; reduce absolute Scope 1 and 2 emissions by 50% by 2030; transition 80% of electricity usage to renewable energy by 2030",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Enhancing digital services and consulting offerings",
+        	"Investing in emerging technologies and innovation"
+    	],
+    	"facevalue": "2",
+    	"public_sector": "No",
+    	"revenue": "INR 29,890 crore",
+    	"yoy_growth": "5.1%",
+    	"pat": "INR 4,591 crore",
+    	"profit_growth": "5.5%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "22.56",
+        	"ROE": "25.26%",
+        	"Book Value": "177.16",
+        	"Debt to Equity": "0.08",
+        	"Industry P/E": "22.56",
+        	"EPS (TTM)": "48.29",
+        	"Current Ratio": "2.16",
+        	"ROCE": "31.18%",
+        	"RSI": "55.22"
+    	}
+	},
+    {
+        "name": "W-Tech Limited",
+        "ticker": "WTECH",
+        "locations": ["Bengaluru", "Hyderabad", "Pune"],
+        "sector": "Information Technology",
+        "subsector": "IT Services and Consulting",
+        "group": "Independent",
+        "ceo": "Srinath Pallia",
+        "facevalue":"2",
+        
+        "foreign_investment": "Foreign institutional investors have increased their stake for two consecutive quarters as of June 2023",
+        "foreign_trade_exposure": [
+            {"Country": "Global", "Percentage": "Not mentioned"}
+        ],
+        "green_energy_focus": "Sustainability rating of Gold from Ecovadis with a score in the 97th percentile; member of Dow Jones Sustainability Index (World) for 13 consecutive years",
+        "government_schemes_involvement": ["Not mentioned"],
+        "expansion_plans": [
+            "Enhancing digital services and consulting offerings",
+            "Investing in emerging technologies and innovation"
+        ],
+        "public_sector": "No",
+        "marketcap": "₹2,66,697 Cr",
+        "revenue": "INR 22,318.8 crore",
+        "yoy_growth": "0.5%",
+        "pat": "INR 3,366.7 crore",
+        "profit_growth": "24.7%",
+        "fundamentals": {
+            "P/E Ratio (TTM)": "20.12",
+            "ROE": "17.75%",
+            "Book Value": "109.84",
+            "Face Value": "2",
+            "Debt to Equity": "0.19",
+            "Industry P/E": "20.12",
+            "EPS (TTM)": "21.61",
+            "Current Ratio": "2.25",
+            "ROCE": "22.95%",
+            "RSI": "52.87"
+        }
+  },
+	{
+    	"name": "BHLIMindtree Limited",
+    	"ticker": "BHLIM",
+    	"locations": [
+        	"Mumbai",
+        	"Bengaluru",
+        	"Chennai"
+    	],
+    	"sector": "Information Technology",
+    	"subsector": "IT Services and Consulting",
+    	"group": "Lartex and Turbo",
+    	"ceo": "D Chatterjee",
+    	"marketcap": "1,69,207 Cr",
+    	"foreign_investment": "Specific data not readily available",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "North America",
+            	"Percentage": "Approximately 75% of revenue"
+        	}
+    	],
+    	"green_energy_focus": "Aims to be carbon and water neutral for its India operations by 2030",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Enhancing digital services and consulting offerings",
+        	"Investing in emerging technologies and innovation"
+    	],
+    	"facevalue": "1",
+    	"public_sector": "No",
+    	"revenue": "INR 9,660.9 crore",
+    	"yoy_growth": "7.1%",
+    	"pat": "INR 1,086.7 crore",
+    	"profit_growth": "-7.1%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "34.12",
+        	"ROE": "21.64%",
+        	"Book Value": "423.86",
+        	"Debt to Equity": "0.14",
+        	"Industry P/E": "34.12",
+        	"EPS (TTM)": "124.28",
+        	"Current Ratio": "1.89",
+        	"ROCE": "27.65%",
+        	"RSI": "59.33"
+    	}
+	},
+	{
+    	"name": "Clipla Limited",
+    	"ticker": "CLPL",
+    	"locations": [
+        	"Mumbai",
+        	"Bangalore",
+        	"Goa"
+    	],
+    	"sector": "Pharmaceuticals",
+    	"subsector": "Generic and Branded Medicines",
+    	"group": "Independent",
+    	"ceo": "Anil Vohra",
+    	"marketcap": "1,03,514 Cr",
+    	"foreign_investment": "Specific data not readily available",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "North America",
+            	"Percentage": "Approximately 22% of total revenue"
+        	}
+    	],
+    	"green_energy_focus": "Committed to environmental stewardship with a focus on sustainability",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Focus on new product launches",
+        	"Strengthening presence in key markets"
+    	],
+    	"facevalue": "2",
+    	"public_sector": "No",
+    	"revenue": "INR 7,294.58 crore",
+    	"yoy_growth": "7.4%",
+    	"pat": "INR 1,570.51 crore",
+    	"profit_growth": "48.7%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "27.15",
+        	"ROE": "16.96%",
+        	"Book Value": "101.44",
+        	"Debt to Equity": "0.41",
+        	"Industry P/E": "27.15",
+        	"EPS (TTM)": "38.12",
+        	"Current Ratio": "1.85",
+        	"ROCE": "21.12%",
+        	"RSI": "54.67"
+    	}
+	},
+	{
+    	"name": "BondIt Industries Limited",
+    	"ticker": "BONDIT",
+    	"locations": [
+        	"Mumbai",
+        	"Vapi",
+        	"Mahad"
+    	],
+    	"sector": "Chemicals",
+    	"subsector": "Adhesives and Sealants",
+    	"group": "Independent",
+    	"ceo": "S. Bharat",
+    	"marketcap": "2,56,647 Cr",
+    	"foreign_investment": "Specific data not readily available",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Emphasis on sustainable manufacturing processes and products",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Investments in capacity expansion and new product development"
+    	],
+    	"facevalue": "1",
+    	"public_sector": "No",
+    	"revenue": "INR 3,368.91 crore",
+    	"yoy_growth": "7.6%",
+    	"pat": "INR 557.08 crore",
+    	"profit_growth": "9%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "84.34",
+        	"ROE": "18.33%",
+        	"Book Value": "119.53",
+        	"Debt to Equity": "0.06",
+        	"Industry P/E": "84.34",
+        	"EPS (TTM)": "28.52",
+        	"Current Ratio": "2.27",
+        	"ROCE": "24.65%",
+        	"RSI": "61.21"
+    	}
+	},
+	{
+    	"name": "Helio Pharma Industries Limited",
+    	"ticker": "HELIOPH",
+    	"locations": [
+        	"Mumbai",
+        	"Vadodara",
+        	"Halol"
+    	],
+    	"sector": "Pharmaceuticals",
+    	"subsector": "Generic and Specialty Pharmaceuticals",
+    	"group": "Independent",
+    	"ceo": "Dilip Shinde",
+    	"marketcap": "2,46,654 Cr",
+    	"foreign_investment": "Specific data not readily available",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"facevalue": "1",
+    	"green_energy_focus": "Emphasis on sustainable manufacturing processes and products",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Investments in capacity expansion and new product development"
+    	],
+    	"public_sector": "No",
+    	"revenue": "INR 13,436.9 crore",
+    	"yoy_growth": "10.5%",
+    	"pat": "INR 3,219.6 crore",
+    	"profit_growth": "24.1%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "25.78",
+        	"ROE": "18.23%",
+        	"Book Value": "121.21",
+        	"Debt to Equity": "0.11",
+        	"Industry P/E": "25.78",
+        	"EPS (TTM)": "48.97",
+        	"Current Ratio": "2.12",
+        	"ROCE": "23.67%",
+        	"RSI": "56.88"
+    	}
+	},
+	{
+    	"name": "Alpha Corporation Limited",
+    	"ticker": "ALPHACORP",
+    	"locations": [
+        	"Kolkata",
+        	"Satna",
+        	"Chanderia"
+    	],
+    	"sector": "Materials",
+    	"subsector": "Cement and Jute Products",
+    	"group": "Alpha Group",
+    	"ceo": "Arvind Kulkarni",
+    	"foreign_investment": "Specific data not readily available",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Emphasis on sustainable manufacturing processes and products",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Investments in capacity expansion and new product development"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "No",
+    	"revenue": "INR 2,256.65 crore",
+    	"yoy_growth": "-2.3%",
+    	"pat": "INR 31.19 crore",
+    	"profit_growth": "-71.4%",
+    	"marketcap": "9,354 Cr",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "28.64",
+        	"ROE": "13.67%",
+        	"Book Value": "202.94",
+        	"Debt to Equity": "1.23",
+        	"Industry P/E": "28.64",
+        	"EPS (TTM)": "32.65",
+        	"Current Ratio": "1.12",
+        	"ROCE": "17.56%",
+        	"RSI": "48.91"
+    	}
+	},
+	{
+    	"name": "SR Chemicals and Fibers Limited",
+    	"ticker": "SRCF",
+    	"locations": [
+        	"Gurugram",
+        	"Dahej",
+        	"Gummidipoondi"
+    	],
+    	"sector": "Chemicals",
+    	"subsector": "Industrial and Specialty Intermediates",
+    	"group": "Independent",
+    	"ceo": "Ashish Raj",
+    	"foreign_investment": "Specific data not readily available",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Emphasis on sustainable manufacturing processes and products",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Investments in capacity expansion and new product development"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "No",
+    	"revenue": "INR 3,053 crore",
+    	"yoy_growth": "-12%",
+    	"pat": "INR 253 crore",
+    	"profit_growth": "-50%",
+    	"marketcap": "73,431 Cr",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "32.45",
+        	"ROE": "21.32%",
+        	"Book Value": "370.12",
+        	"Debt to Equity": "0.87",
+        	"Industry P/E": "32.45",
+        	"EPS (TTM)": "141.22",
+        	"Current Ratio": "1.78",
+        	"ROCE": "26.98%",
+        	"RSI": "55.76"
+    	}
+	},
+	{
+    	"name": "Avani Power Limited",
+    	"ticker": "AVANIPOWER",
+    	"locations": [
+        	"Ahmedabad",
+        	"Gujarat",
+        	"India"
+    	],
+    	"sector": "Energy",
+    	"subsector": "Power Generation",
+    	"group": "Avani Group",
+    	"ceo": "Alok Kumar",
+    	"marketcap": "Approximately INR 1,00,000 crore (as of February 14, 2025)",
+    	"foreign_investment": "Significant investments from foreign institutional investors",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Indonesia",
+            	"Percentage": "30%"
+        	},
+        	{
+            	"Country": "Australia",
+            	"Percentage": "20%"
+        	}
+    	],
+    	"green_energy_focus": "First to deploy supercritical technology in India; renewable power initiatives",
+    	"government_schemes_involvement": [
+        	"Kyoto Protocol Clean Development Mechanism"
+    	],
+    	"expansion_plans": [
+        	"Target of 16.85 GW capacity by 2027",
+        	"Expansion in Jharkhand, Madhya Pradesh"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "No",
+    	"revenue": "INR 43,041 crore (FY 2022-23)",
+    	"yoy_growth": "72%",
+    	"pat": "INR 10,727 crore (FY 2022-23)",
+    	"profit_growth": "303%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "13.17",
+        	"ROE": "46.23%",
+        	"Book Value": "202.26",
+        	"Debt to Equity": "1.12",
+        	"Industry P/E": "13.17",
+        	"EPS (TTM)": "21.11",
+        	"Current Ratio": "1.02",
+        	"ROCE": "23.57%",
+        	"RSI": "51.23"
+    	}
+	},
+	{
+    	"name": "AshLey Motors Limited",
+    	"ticker": "ASHLEYMOT",
+    	"locations": [
+        	"Chennai",
+        	"Tamil Nadu",
+        	"India"
+    	],
+    	"sector": "Automobile",
+    	"subsector": "Commercial Vehicles",
+    	"group": "Hindua Group",
+    	"ceo": "S. Agrawal",
+    	"marketcap": "50,715 Cr",
+    	"foreign_investment": "Not explicitly mentioned",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Electric buses and trucks, CNG, LNG, and green hydrogen vehicles",
+    	"government_schemes_involvement": [
+        	"Vehicle scrappage policy"
+    	],
+    	"expansion_plans": [
+        	"Increased presence in electric mobility",
+        	"Expansion of EV offerings in Europe"
+    	],
+    	"facevalue": "1",
+    	"public_sector": "No",
+    	"revenue": "INR 8,768.83 crore",
+    	"yoy_growth": "-9.2%",
+    	"pat": "INR 756.42 crore",
+    	"profit_growth": "36.6%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "22.51",
+        	"ROE": "20.12%",
+        	"Book Value": "42.56",
+        	"Face Value": "1",
+        	"Debt to Equity": "0.68",
+        	"Industry P/E": "22.51",
+        	"EPS (TTM)": "2.25",
+        	"Current Ratio": "1.45",
+        	"ROCE": "25.78%",
+        	"RSI": "53.22"
+    	}
+	},
+	{
+    	"name": "Legacy Finance Limited",
+    	"ticker": "LEGFINANCE",
+    	"locations": [
+        	"Pune",
+        	"Maharashtra",
+        	"India"
+    	],
+    	"sector": "Financial Services",
+    	"subsector": "Non-Banking Financial Company (NBFC)",
+    	"group": "Legacy Finserv",
+    	"ceo": "Rajeev Jayant",
+    	"foreign_investment": "Not explicitly mentioned",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Investments in sustainable financial solutions",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Digital-first approach",
+        	"Growth in retail and SME lending"
+    	],
+    	"facevalue": "2",
+    	"public_sector": "No",
+    	"marketcap": "4,48,272 Cr",
+    	"revenue": "INR 15,393.91 crore",
+    	"yoy_growth": "27%",
+    	"pat": "INR 3,705.81 crore",
+    	"profit_growth": "16.6%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "31.25",
+        	"ROE": "24.12%",
+        	"Book Value": "1,225.87",
+        	"Debt to Equity": "4.15",
+        	"Industry P/E": "31.25",
+        	"EPS (TTM)": "144.40",
+        	"Current Ratio": "1.78",
+        	"ROCE": "15.67%",
+        	"RSI": "60.11"
+    	}
+	},
+	{
+    	"name": "Legacy Finserv Limited",
+    	"ticker": "LEGFINSV",
+    	"locations": [
+        	"Pune",
+        	"Maharashtra",
+        	"India"
+    	],
+    	"sector": "Financial Services",
+    	"subsector": "Insurance, Lending, Asset Management",
+    	"group": "Legacy Group",
+    	"ceo": "Sanjiv B.",
+    	"foreign_investment": "Not explicitly mentioned",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Not explicitly mentioned",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Growth in asset management and digital lending",
+        	"Expansion in insurance and financial inclusion"
+    	],
+    	"facevalue": "1",
+    	"public_sector": "No",
+    	"marketcap": "2,35,478 Cr",
+    	"revenue": "INR 32,042 crore",
+    	"yoy_growth": "10%",
+    	"pat": "INR 2,231 crore",
+    	"profit_growth": "3%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "28.57",
+        	"ROE": "18.76%",
+        	"Book Value": "1,456.23",
+        	"Debt to Equity": "1.89",
+        	"Industry P/E": "28.57",
+        	"EPS (TTM)": "82.42",
+        	"Current Ratio": "1.65",
+        	"ROCE": "12.34%",
+        	"RSI": "58.76"
+    	}
+	},
+	{
+    	"name": "Legacy Holdings and Investment Limited",
+    	"ticker": "LEGHLDNG",
+    	"locations": [
+        	"Pune",
+        	"Maharashtra",
+        	"India"
+    	],
+    	"sector": "Financial Services",
+    	"subsector": "Investment Holding",
+    	"group": "Legacy Group",
+    	"ceo": "Sanjiv B.",
+    	"foreign_investment": "Not explicitly mentioned",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Investments in green energy portfolios through subsidiaries",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Strategic investment in financial services",
+        	"Strengthening holdings in Bajaj Group companies"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "No",
+    	"marketcap": "₹89,765 Cr",
+    	"revenue": "INR 158.23 crore",
+    	"yoy_growth": "19.41%",
+    	"pat": "INR 1,749.97 crore",
+    	"profit_growth": "6.4%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "14.29",
+        	"ROE": "15.23%",
+        	"Book Value": "8,765.34",
+        	"Face Value": "10",
+        	"Debt to Equity": "0.12",
+        	"Industry P/E": "14.29",
+        	"EPS (TTM)": "628.75",
+        	"Current Ratio": "2.12",
+        	"ROCE": "14.98%",
+        	"RSI": "55.33"
+    	}
+	},
+	{
+    	"name": "Chola Capital Limited",
+    	"ticker": "CHOLACAP",
+    	"locations": [
+        	"Chennai",
+        	"Tamil Nadu",
+        	"India"
+    	],
+    	"sector": "Financial Services",
+    	"subsector": "Non-Banking Financial Company (NBFC)",
+    	"group": "Murupa Group",
+    	"ceo": "S. S. Subbiah",
+    	"marketcap": "1,24,567 Cr",
+    	"foreign_investment": "Not explicitly mentioned",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Not explicitly mentioned",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Expansion of branch network across India",
+        	"Focus on digital lending and fintech collaborations",
+        	"Entry into Consumer and Small Enterprise Loan segments",
+        	"Launch of Secured Business and Personal Loans"
+    	],
+    	"facevalue": "2",
+    	"public_sector": "No",
+    	"loan_book_size": "INR 1.5 lakh crore",
+    	"major_funding_sources": [
+        	"Deposits",
+        	"Institutional Borrowings",
+        	"Equity Capital"
+    	],
+    	"geopolitical_exposure": "Limited",
+    	"sector_risks": [
+        	"Credit defaults",
+        	"Regulatory changes",
+        	"Liquidity risks"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "High",
+    	"revenue": "INR 6,709.21 crore (Q3 FY2024-25)",
+    	"yoy_growth": "35.2%",
+    	"pat": "INR 1,086.53 crore",
+    	"profit_growth": "24.02%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "25.67",
+        	"ROE": "19.87%",
+        	"Book Value": "378.91",
+        	"Debt to Equity": "5.21",
+        	"Industry P/E": "25.67",
+        	"EPS (TTM)": "48.52",
+        	"Current Ratio": "1.54",
+        	"ROCE": "14.76%",
+        	"RSI": "57.88"
+    	}
+	},
+	{
+    	"name": "GZ Industries Limited",
+    	"ticker": "GZIND",
+    	"locations": [
+        	"Mumbai",
+        	"Maharashtra",
+        	"India"
+    	],
+    	"sector": "Conglomerate",
+    	"subsector": 
+        	"Consumer Goods",
+    	"group": "GZ Group",
+    	"ceo": "Nadir G.",
+    	"marketcap": "25,789 Cr",
+    	"foreign_investment": "Not explicitly mentioned",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Sustainability-focused manufacturing and green buildings",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Growth in real estate business",
+        	"Expansion in consumer and agri-business segments",
+        	"Investment of INR 6 billion to expand oleo chemicals capacity in Valia, Gujarat",
+        	"Scaling up dairy business under the Jersey brand across India"
+    	],
+    	"facevalue": "1",
+    	"public_sector": "No",
+    	"loan_book_size": "Not applicable",
+    	"major_funding_sources": [
+        	"Equity",
+        	"Debt financing"
+    	],
+    	"geopolitical_exposure": "Limited",
+    	"sector_risks": [
+        	"Raw material price volatility",
+        	"Regulatory changes",
+        	"Environmental compliance"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "Moderate",
+    	"revenue": "INR 188.16 billion (FY 2023-24)",
+    	"debt_exposure": "Net Debt: INR 228.358 billion (FY 2023-24)",
+    	"yoy_growth": "34.39%",
+    	"pat": "INR 188.20 crore",
+    	"profit_growth": "76.86%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "22.78",
+        	"ROE": "14.56%",
+        	"Book Value": "215.76",
+        	"Debt to Equity": "0.67",
+        	"Industry P/E": "22.78",
+        	"EPS (TTM)": "11.32",
+        	"Current Ratio": "1.87",
+        	"ROCE": "18.98%",
+        	"RSI": "52.12"
+    	}
+	},
+	{
+    	"name": "RailConnect India Corporation Limited",
+    	"ticker": "RAILCONN",
+    	"locations": [
+        	"New Delhi",
+        	"India"
+    	],
+    	"sector": "Transport & Hospitality",
+    	"subsector": "Railway Catering, Tourism, and E-ticketing",
+    	"group": "Railway group of India",
+    	"ceo": "S. B. Kumar",
+    	"marketcap": "INR 98,765 crore",
+    	"foreign_investment": "Not explicitly mentioned",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Expansion of Rail Neer plants, sustainable tourism initiatives",
+    	"government_schemes_involvement": [
+        	"One India, One Ticket Initiative",
+        	"Vande Bharat Catering Services",
+        	"Rail Neer Packaged Water Expansion"
+    	],
+    	"expansion_plans": [
+        	"Expansion of Vande Bharat catering services",
+        	"New Rail Neer plants for packaged drinking water",
+        	"Diversification into non-railway catering services",
+        	"Development of budget hotels and alternate travel options for waitlisted passengers",
+        	"Introduction of drinking water solutions for non-railway sectors"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "Yes",
+    	"loan_book_size": "Not applicable",
+    	"major_funding_sources": [
+        	"Government funding",
+        	"Revenue from ticketing, catering, and tourism"
+    	],
+    	"geopolitical_exposure": "Limited",
+    	"sector_risks": [
+        	"Regulatory changes",
+        	"Operational risks",
+        	"Competition from airlines and buses"
+    	],
+    	"inflation_risk": "Low",
+    	"interest_rate_sensitivity": "Low",
+    	"revenue": "INR 4,270.18 crore (FY 2023-24)",
+    	"yoy_growth": "20.18%",
+    	"pat": "INR 1,111.26 crore",
+    	"profit_growth": "10.47%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "75.45",
+        	"ROE": "38.90%",
+        	"Book Value": "156.89",
+        	"Debt to Equity": "0.00",
+        	"Industry P/E": "75.45",
+        	"EPS (TTM)": "6.54",
+        	"Current Ratio": "2.76",
+        	"ROCE": "50.23%",
+        	"RSI": "65.44"
+    	}
+	},
+	{
+    	"name": "JFS Capital Limited",
+    	"ticker": "JFSCAP",
+    	"locations": [
+        	"Mumbai",
+        	"Maharashtra",
+        	"India"
+    	],
+    	"sector": "Financial Services",
+    	"subsector": "Non-Banking Financial Company (NBFC), Insurance, Payment Solutions",
+    	"group": "Relionce Industries Limited",
+    	"ceo": "Hiten Sethi",
+    	"marketcap": "INR 2,10,543 crore",
+    	"foreign_investment": "In discussions with BlackRock for a private credit venture",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Not explicitly mentioned",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Growth in digital lending and wealth management",
+        	"Expansion of J Payments Bank and J Insurance services"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "No",
+    	"loan_book_size": "Not explicitly mentioned",
+    	"major_funding_sources": [
+        	"Equity",
+        	"Institutional Investments",
+        	"Retail Lending"
+    	],
+    	"geopolitical_exposure": "Limited",
+    	"sector_risks": [
+        	"Regulatory changes",
+        	"Market risks",
+        	"Credit defaults"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "High",
+    	"revenue": "INR 31,537 crore (Q3 FY 2023-24)",
+    	"yoy_growth": "10.7%",
+    	"pat": "INR 5,208 crore",
+    	"profit_growth": "12.2%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "87.9",
+        	"ROE": "1.27%",
+        	"Book Value": "215.86",
+        	"Debt to Equity": "0.00",
+        	"Industry P/E": "150.23",
+        	"EPS (TTM)": "0.83",
+        	"Current Ratio": "43.1",
+        	"ROCE": "1.55%",
+        	"RSI": "58.90"
+    	}
+	},
+	{
+    	"name": "JFW Steel Limited",
+    	"ticker": "JFWSTEEL",
+    	"locations": [
+        	"Mumbai",
+        	"Maharashtra",
+        	"India"
+    	],
+    	"sector": "Metals & Mining",
+    	"subsector": "Steel Manufacturing",
+    	"group": "JFW Group",
+    	"ceo": "Jayant A.",
+    	"marketcap": "INR 1,87,345 crore",
+    	"foreign_investment": {
+        	"POSCO Partnership": "Joint venture to establish an integrated steel plant in Odisha with an initial capacity of 5 million metric tons per year."
+    	},
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Over 100 export countries",
+            	"Percentage": "Not specified"
+        	}
+    	],
+    	"green_energy_focus": "Decarbonization initiatives, green steel production, Net Zero by 2050 target",
+    	"government_schemes_involvement": [
+        	"PLI Scheme for Specialty Steel",
+        	"Renewable Energy Integration Initiatives"
+    	],
+    	"expansion_plans": [
+        	"Increase domestic steel capacity to 50 MTPA by FY 2030-31",
+        	"Expansion in global steel markets",
+        	"Joint venture with POSCO to establish an integrated steel plant in Odisha",
+        	"Acquisition of a 67% stake in Australian firm M Res NSW HCC to expand coal reserves"
+    	],
+    	"facevalue": "1",
+    	"public_sector": "No",
+    	"loan_book_size": "Not applicable",
+    	"major_funding_sources": [
+        	"Institutional Debt",
+        	"Bond Issuances",
+        	"Equity"
+    	],
+    	"geopolitical_exposure": [
+        	"Export market risks",
+        	"Raw material imports"
+    	],
+    	"sector_risks": [
+        	"Raw material cost fluctuations",
+        	"Global steel price volatility",
+        	"Environmental regulations"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "Moderate",
+    	"revenue": "INR 1,75,006 crore (Q3 FY 2023-24)",
+    	"yoy_growth": "5.5%",
+    	"pat": "INR 8,973 crore",
+    	"profit_growth": "116.8%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "12.34",
+        	"ROE": "22.12%",
+        	"Book Value": "567.89",
+        	"Debt to Equity": "0.78",
+        	"Industry P/E": "12.34",
+        	"EPS (TTM)": "15.23",
+        	"Current Ratio": "1.23",
+        	"ROCE": "28.76%",
+        	"RSI": "54.67"
+    	}
+	},
+	{
+    	"name": "LarTex and Turbo Limited",
+    	"ticker": "LTL",
+    	"locations": [
+        	"Mumbai",
+        	"Maharashtra",
+        	"India"
+    	],
+    	"sector": "Engineering & Construction",
+    	"subsector": "Infrastructure, EPC, Heavy Engineering",
+    	"group": "L&T Group",
+    	"ceo": "S. N. Deepak",
+    	"marketcap": "INR 4,12,987 crore",
+    	"foreign_investment": {
+        	"Life Insurance Corporation of India": "12.6%",
+        	"HDFC Mutual Fund": "2.4%",
+        	"GIC (Singapore)": "2.4%",
+        	"Fidelity Investments": "2.1%",
+        	"General Insurance Corporation of India": "1.8%"
+    	},
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Saudi Arabia",
+            	"Percentage": "Not mentioned"
+        	},
+        	{
+            	"Country": "Netherlands",
+            	"Percentage": "Not mentioned"
+        	},
+        	{
+            	"Country": "Algeria",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Clean energy projects, nuclear, hydro, solar EPC solutions",
+    	"government_schemes_involvement": [
+        	"National Infrastructure Pipeline",
+        	"Production Linked Incentive (PLI) Scheme",
+        	"Smart Cities Mission"
+    	],
+    	"expansion_plans": [
+        	"Growth in semiconductor design and data center business",
+        	"Expansion in clean mobility and transportation solutions"
+    	],
+    	"facevalue": "2",
+    	"public_sector": "No",
+    	"loan_book_size": "Not applicable",
+    	"major_funding_sources": [
+        	"Project Financing",
+        	"Bond Issuances",
+        	"Equity"
+    	],
+    	"geopolitical_exposure": [
+        	"Middle East contracts",
+        	"Infrastructure projects in Europe"
+    	],
+    	"sector_risks": [
+        	"Project execution delays",
+        	"Raw material price volatility",
+        	"Regulatory changes"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "High",
+    	"revenue": "INR 55,127.82 crore (Q3 FY 2023-24)",
+    	"yoy_growth": "18.74%",
+    	"pat": "INR 3,592.84 crore",
+    	"profit_growth": "17.47%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "26.78",
+        	"ROE": "15.67%",
+        	"Book Value": "456.78",
+        	"Debt to Equity": "1.23",
+        	"Industry P/E": "26.78",
+        	"EPS (TTM)": "20.45",
+        	"Current Ratio": "1.12",
+        	"ROCE": "18.90%",
+        	"RSI": "56.22"
+    	}
+	},
+	{
+    	"name": "HPCI Limited",
+    	"ticker": "HPCI",
+    	"locations": [
+        	"Faridabad",
+        	"Haryana",
+        	"India"
+    	],
+    	"sector": "Energy",
+    	"subsector": "Hydropower Generation",
+    	"group": "Government",
+    	"ceo": "Rajendra Pawar",
+    	"marketcap": "INR 78,901 crore",
+    	"foreign_investment": "Foreign Institutional Investors hold a 7.37% stake",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "100% hydropower-based clean energy initiatives",
+    	"government_schemes_involvement": [
+        	"Hydropower Development Plan",
+        	"National Electricity Fund",
+        	"Renewable Energy Investment Initiative"
+    	],
+    	"expansion_plans": [
+        	"Expansion in pumped storage hydropower projects",
+        	"Diversification into floating solar energy"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "Yes",
+    	"loan_book_size": "Not applicable",
+    	"major_funding_sources": [
+        	"Government Grants",
+        	"Institutional Borrowings",
+        	"Bond Issuances"
+    	],
+    	"geopolitical_exposure": [
+        	"Limited"
+    	],
+    	"sector_risks": [
+        	"Environmental impact",
+        	"Delays in hydro project approvals",
+        	"Climate change effects"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "High",
+    	"revenue": "INR 7,957.43 crore (FY 2023-24)",
+    	"yoy_growth": "-12.8%",
+    	"pat": "INR 3,743.94 crore",
+    	"profit_growth": "-2.3%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "10.23",
+        	"ROE": "18.34%",
+        	"Book Value": "34.56",
+        	"Debt to Equity": "1.56",
+        	"Industry P/E": "10.23",
+        	"EPS (TTM)": "3.45",
+        	"Current Ratio": "1.34",
+        	"ROCE": "15.78%",
+        	"RSI": "52.89"
+    	}
+	},
+	{
+    	"name": "TPCI Limited",
+    	"ticker": "TPCI",
+    	"locations": [
+        	"New Delhi, India"
+    	],
+    	"sector": "Energy",
+    	"subsector": "Power Generation",
+    	"group": "Government",
+    	"ceo": "G. D. Singh",
+    	"marketcap": "INR 1,85,765 crore",
+    	"foreign_investment": "Raised USD 750 million through External Commercial Borrowing in 2024",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Russia",
+            	"Percentage": "10%"
+        	},
+        	{
+            	"Country": "United States",
+            	"Percentage": "5%"
+        	}
+    	],
+    	"green_energy_focus": "Investment in solar and green hydrogen projects",
+    	"government_schemes_involvement": [
+        	"National Solar Mission",
+        	"Renewable Energy Integration",
+        	"Ultra Mega Power Projects"
+    	],
+    	"expansion_plans": [
+        	"Expansion in renewable energy",
+        	"Electrification projects for Railways"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "Yes",
+    	"loan_book_size": "Not applicable",
+    	"major_funding_sources": [
+        	"Bonds",
+        	"Government Loans",
+        	"Institutional Financing"
+    	],
+    	"geopolitical_exposure": [
+        	"Energy security concerns"
+    	],
+    	"sector_risks": [
+        	"Fuel price volatility",
+        	"Environmental regulations",
+        	"Supply chain disruptions"
+    	],
+    	"inflation_risk": "High",
+    	"interest_rate_sensitivity": "High",
+    	"revenue": "INR 41,352.27 crore (Q3 FY2023-24)",
+    	"yoy_growth": "4.81%",
+    	"pat": "INR 4,711.42 crore",
+    	"profit_growth": "3.05%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "9.87",
+        	"ROE": "15.45%",
+        	"Book Value": "125.67",
+        	"Debt to Equity": "1.34",
+        	"Industry P/E": "9.87",
+        	"EPS (TTM)": "10.23",
+        	"Current Ratio": "1.45",
+        	"ROCE": "18.76%",
+        	"RSI": "53.45"
+    	}
+	},
+	{
+    	"name": "PowerFund Corporation Limited",
+    	"ticker": "PFCL",
+    	"locations": [
+        	"New Delhi",
+        	"Gurugram"
+    	],
+    	"sector": "Financial Services",
+    	"subsector": "Infrastructure Finance",
+    	"group": "Government",
+    	"ceo": "Ravi Singh",
+    	"marketcap": "INR 1,34,567 crore",
+    	"foreign_investment": "INR 36,961 crore",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "United States",
+            	"Percentage": "10%"
+        	},
+        	{
+            	"Country": "Japan",
+            	"Percentage": "5%"
+        	},
+        	{
+            	"Country": "European Union",
+            	"Percentage": "8%"
+        	}
+    	],
+    	"green_energy_focus": "INR 1,36,516 crore in renewable energy financing",
+    	"government_schemes_involvement": [
+        	"PM Surya Ghar Muft Bijli Yojana",
+        	"Pradhan Mantri Sahaj Bijli Har Ghar Yojana (SAUBHAGYA)",
+        	"Deen Dayal Upadhyaya Gram Jyoti Yojana (DDUGJY)"
+    	],
+    	"expansion_plans": [
+        	"Expansion into renewable energy financing",
+        	"New subsidiary in GIFT City for international financial operations"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "Yes",
+    	"loan_book_size": "INR 5.09 lakh crore",
+    	"major_funding_sources": [
+        	"Bonds/Debentures",
+        	"Foreign Currency Borrowings",
+        	"Institutional Debt"
+    	],
+    	"geopolitical_exposure": [
+        	"US Dollar Green Bonds",
+        	"Japanese Yen Green Bonds"
+    	],
+    	"sector_risks": [
+        	"Interest Rate Fluctuations",
+        	"Infrastructure Delays",
+        	"Liquidity Risks"
+    	],
+    	"inflation_risk": "High",
+    	"interest_rate_sensitivity": "Very High",
+    	"revenue": "INR 13,043.69 crore (Q3 FY2023-24)",
+    	"yoy_growth": "10.06%",
+    	"pat": "INR 4,154.92 crore",
+    	"profit_growth": "23.06%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "7.65",
+        	"ROE": "18.90%",
+        	"Book Value": "287.90",
+        	"Debt to Equity": "4.56",
+        	"Industry P/E": "7.65",
+        	"EPS (TTM)": "37.89",
+        	"Current Ratio": "1.23",
+        	"ROCE": "12.34%",
+        	"RSI": "51.78"
+    	}
+	},
+	{
+        "name": "Bharat Steel Works Limited",
+        "ticker": "BSW",
+        "locations": ["New Delhi", "India"],
+        "sector": "Metals & Mining",
+        "subsector": "Steel Manufacturing",
+        "group": "Government",
+        "ceo": "Soma Das",
+        "marketcap": "56,789 Cr",
+        "foreign_investment": "Not explicitly mentioned in the file",
+        "foreign_trade_exposure": [
+          {"country": "Not mentioned", "percentage": "Not mentioned"}
+        ],
+        "green_energy_focus": "Investment in sustainable steel production and decarbonization",
+        "government_schemes_involvement": [
+          "National Steel Policy",
+          "PLI Scheme for Specialty Steel"
+        ],
+        "expansion_plans": [
+          "Capacity expansion projects",
+          "New product development for high-strength steel"
+        ],
+        "facevalue": "10",
+        "public_sector": "Yes",
+        "loan_book_size": "Not applicable",
+        "major_funding_sources": ["Institutional Debt", "Bond Issuances"],
+        "geopolitical_exposure": ["Export market risks", "Raw material imports"],
+        "esg_rating": "Recognized for sustainability initiatives",
+        "revenue": "INR 1,04,545 crore",
+        "yoy_growth": "0.79%",
+        "pat": "INR 2,733 crore",
+        "profit_growth": "43.63%",
+        "fundamentals": {
+          "P/E Ratio (TTM)": "8.90",
+          "ROE": "20.12%",
+          "Book Value": "98.76",
+          "Debt to Equity": "0.89",
+          "Industry P/E": "8.90",
+          "EPS (TTM)": "10.98",
+          "Current Ratio": "1.12",
+          "ROCE": "25.67%",
+          "RSI": "50.23"
+        }
+      }
+      ,
+	{
+    	"name": "SG Capital Limited",
+    	"ticker": "SGCAP",
+    	"locations": [
+        	"New Delhi",
+        	"Ghaziabad",
+        	"India"
+    	],
+    	"sector": "Financial Services",
+    	"subsector": "Investment & Securities",
+    	"group": "Independent",
+    	"ceo": "S. Dhawan",
+    	"marketcap": "INR 2,273 crore",
+    	"foreign_investment": "Not explicitly mentioned",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Not explicitly mentioned",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Enhancing digital financial services",
+        	"Expanding securities offerings"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "No",
+    	"loan_book_size": "INR 1,568 crore (as of Q3 FY2024-25)",
+    	"major_funding_sources": [
+        	"Equity",
+        	"Debt financing"
+    	],
+    	"geopolitical_exposure": [
+        	"Limited"
+    	],
+    	"sector_risks": [
+        	"Market fluctuations",
+        	"Regulatory changes"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "High",
+    	"revenue": "INR 18,971.94 lakh (FY2023-24)",
+    	"yoy_growth": "357.59%",
+    	"pat": "INR 7,858.49 lakh",
+    	"profit_growth": "327.03%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "28.1",
+        	"ROE": "11.4%",
+        	"Book Value": "157.47",
+        	"Debt to Equity": "0.00",
+        	"Industry P/E": "23.59",
+        	"EPS (TTM)": "13",
+        	"Current Ratio": "151",
+        	"ROCE": "12.0%",
+        	"RSI": "41.2"
+    	}
+	},
+	{
+    	"name": "Shriram Money Limited",
+    	"ticker": "SHRIMON",
+    	"locations": [
+        	"Chennai",
+        	"Tamil Nadu",
+        	"India"
+    	],
+    	"sector": "Financial Services",
+    	"subsector": "Non-Banking Financial Company (NBFC)",
+    	"group": "Shriram Group",
+    	"ceo": "Y.S. Chatterjee",
+    	"marketcap": "INR 98,765 crore",
+    	"foreign_investment": "Not explicitly mentioned",
+    	"foreign_trade_exposure": [
+        	{
+            	"Country": "Not mentioned",
+            	"Percentage": "Not mentioned"
+        	}
+    	],
+    	"green_energy_focus": "Launched 'Shriram Green Finance' to fund EVs, battery charging stations, renewable energy products, and energy-efficient machinery",
+    	"government_schemes_involvement": [
+        	"Not mentioned"
+    	],
+    	"expansion_plans": [
+        	"Growth in digital lending",
+        	"Expansion in vehicle finance and MSME lending"
+    	],
+    	"facevalue": "10",
+    	"public_sector": "No",
+    	"loan_book_size": "INR 1,85,682 crore (Assets Under Management)",
+    	"major_funding_sources": [
+        	"Deposits",
+        	"Retail Lending",
+        	"Institutional Borrowings"
+    	],
+    	"geopolitical_exposure": [
+        	"Limited"
+    	],
+    	"sector_risks": [
+        	"Credit defaults",
+        	"Regulatory changes",
+        	"Liquidity risks"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "High",
+    	"revenue": "INR 10,582.31 crore (Q3 FY2024-25)",
+    	"yoy_growth": "15.63%",
+    	"pat": "INR 3,233.66 crore",
+    	"profit_growth": "73.27%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "18.23",
+        	"ROE": "22.34%",
+        	"Book Value": "456.78",
+        	"Debt to Equity": "3.89",
+        	"Industry P/E": "18.23",
+        	"EPS (TTM)": "25.67",
+        	"Current Ratio": "1.45",
+        	"ROCE": "15.89%",
+        	"RSI": "55.12"
+    	}
+	},
+	{
+    	"name": "Titanium Motors Limited",
+    	"ticker": "TITAMOTORS",
+    	"locations": [
+        	"Mumbai",
+        	"Maharashtra",
+        	"India"
+    	],
+    	"sector": "Automobile",
+    	"subsector": "Commercial & Passenger Vehicles",
+    	"group": "Titanium Group",
+    	"ceo": "Not explicitly mentioned",
+    	"marketcap": "INR 2,56,789 crore",
+    	"foreign_investment": "Not explicitly mentioned",
+    	"foreign_trade_exposure": [
+        	{
+            	"country": "125+ countries",
+            	"percentage": "Not specified"
+        	}
+    	],
+    	"green_energy_focus": "Electric vehicles, hydrogen fuel cell technology, Net Zero by 2045",
+    	"government_schemes_involvement": [
+        	"Faster Adoption and Manufacturing of Hybrid and Electric Vehicles (FAME)",
+        	"PLI Scheme for Automobile & Auto Components"
+    	],
+    	"expansion_plans": [
+        	"50% EV portfolio by 2030",
+        	"Expansion in global electric vehicle markets"
+    	],
+    	"facevalue": "2",
+    	"public_sector": "No",
+    	"loan_book_size": "Not applicable",
+    	"major_funding_sources": [
+        	"Equity",
+        	"Debt financing",
+        	"Institutional Investments"
+    	],
+    	"geopolitical_exposure": [
+        	"Export market risks"
+    	],
+    	"sector_risks": [
+        	"Supply chain disruptions",
+        	"Global automotive demand fluctuations"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "High",
+    	"revenue": "INR 1,13,575 crore (Q3 FY2024-25)",
+    	"yoy_growth": "2.7%",
+    	"pat": "INR 5,600 crore",
+    	"profit_growth": "-22.4%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "25.45",
+        	"ROE": "20.1%",
+        	"Book Value": "234.56",
+        	"Debt to Equity": "1.05",
+        	"Industry P/E": "25.45",
+        	"EPS (TTM)": "10.12",
+        	"Current Ratio": "1.23",
+        	"ROCE": "20.1%",
+        	"RSI": "52.78"
+    	}
+	},
+	{
+    	"name": "Titan Tubes Investments Limited",
+    	"ticker": "TITANTUB",
+    	"locations": [
+        	"Chennai",
+        	"Tamil Nadu",
+        	"India"
+    	],
+    	"sector": "Manufacturing",
+    	"subsector": "Engineering, Metal Products, Electric Vehicles",
+    	"group": "Murupa Group",
+    	"ceo": "M.A. Chetty",
+    	"marketcap": "INR 67,890 crore",
+    	"foreign_investment": "INR 1,200 crore (as of March 31, 2024)",
+    	"foreign_trade_exposure": [
+        	{
+            	"country": "United States",
+            	"percentage": "15%"
+        	},
+        	{
+            	"country": "Germany",
+            	"percentage": "10%"
+        	},
+        	{
+            	"country": "United Kingdom",
+            	"percentage": "8%"
+        	}
+    	],
+    	"green_energy_focus": "Electric mobility, green manufacturing processes",
+    	"government_schemes_involvement": [
+        	"PLI Scheme for Automotive Components"
+    	],
+    	"expansion_plans": [
+        	"Expansion in electric vehicles and clean mobility",
+        	"New semiconductor manufacturing initiatives"
+    	],
+    	"facevalue": "2",
+    	"public_sector": "No",
+    	"loan_book_size": "Not applicable",
+    	"major_funding_sources": [
+        	"Equity",
+        	"Debt financing"
+    	],
+    	"geopolitical_exposure": [
+        	"Limited"
+    	],
+    	"sector_risks": [
+        	"Raw material costs",
+        	"Global demand fluctuations",
+        	"Regulatory compliance"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "Moderate",
+    	"revenue": "INR 1,910 crore (Q3 FY2024-25)",
+    	"yoy_growth": "2.7%",
+    	"pat": "INR 160 crore",
+    	"profit_growth": "66%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "32.12",
+        	"ROE": "18.76%",
+        	"Book Value": "345.67",
+        	"Debt to Equity": "0.67",
+        	"Industry P/E": "32.12",
+        	"EPS (TTM)": "10.78",
+        	"Current Ratio": "1.56",
+        	"ROCE": "22.34%",
+        	"RSI": "54.33"
+    	}
+	},
+	{
+    	"name": "Titanium Steel Limited",
+    	"ticker": "TITASTEEL",
+    	"locations": [
+        	"Mumbai",
+        	"Maharashtra",
+        	"India"
+    	],
+    	"sector": "Metals & Mining",
+    	"subsector": "Steel Manufacturing",
+    	"group": "Titanium Group",
+    	"ceo": "B. Narendran",
+    	"marketcap": "INR 1,23,456 crore",
+    	"foreign_investment": "Not explicitly mentioned in the file",
+    	"foreign_trade_exposure": [
+        	{
+            	"country": "Multiple countries",
+            	"percentage": "Not specified"
+        	}
+    	],
+    	"green_energy_focus": "Transition to electric arc furnaces, commitment to Net Zero emissions by 2045",
+    	"government_schemes_involvement": [
+        	"National Steel Policy",
+        	"PLI Scheme for Specialty Steel"
+    	],
+    	"expansion_plans": [
+        	"Capacity expansion projects",
+        	"Development of high-strength steel products"
+    	],
+    	"facevalue": "1",
+    	"public_sector": "No",
+    	"loan_book_size": "Not applicable",
+    	"major_funding_sources": [
+        	"Equity",
+        	"Debt financing",
+        	"Institutional Investments"
+    	],
+    	"geopolitical_exposure": [
+        	"Export market risks",
+        	"Raw material imports"
+    	],
+    	"sector_risks": [
+        	"Raw material price volatility",
+        	"Global steel demand fluctuations",
+        	"Environmental regulations"
+    	],
+    	"inflation_risk": "Moderate",
+    	"interest_rate_sensitivity": "High",
+    	"revenue": "INR 53,648 crore (Q3 FY2024-25)",
+    	"yoy_growth": "-3%",
+    	"pat": "INR 32 crore",
+    	"profit_growth": "-36%",
+    	"fundamentals": {
+        	"P/E Ratio (TTM)": "15.78",
+        	"ROE": "6.55%",
+        	"Book Value": "567.89",
+        	"Debt to Equity": "1.10",
+        	"Industry P/E": "15.78",
+        	"EPS (TTM)": "45.67",
+        	"Current Ratio": "1.02",
+        	"ROCE": "7.02%",
+        	"RSI": "51.90"
+    	}
+	}
+]
